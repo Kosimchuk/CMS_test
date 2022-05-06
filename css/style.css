@@ -1,4 +1,147 @@
 html {
+    width: auto;
+    height: auto;
+}
+body {
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: auto;
+}
+header {
+    height: 40px;
     width: 100%;
+    background: #ff6f00;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+.container::after {
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    height: 45px;
+    width: 100%;
+    opacity: .02;
+    top: 54%;
+}
+.green {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    width: 30%;
+    background: #54b94f;
+}
+.rectangle_one{
+    background-color: black;
+    height: 55px;
+    width: 65%;
+    opacity: .16;
+    margin: 4%;
+}
+.rectangle_two{
+    background-color: black;
+    height: 55px;
+    width: 65%;
+    opacity: .16;
+    margin: 4%;
+}
+.rectangle_three{
+    background-color: black;
+    height: 55px;
+    width: 65%;
+    opacity: .16;
+    margin: 4%;
+}
+.rectangle_four {
+    background-color: black;
+    height: 55px;
+    width: 65%;
+    opacity: .16;
+    margin: 4%;
+}
+.violet {
+    width: 100%;
+    height: 290px;
+    background: #2d2958;
+}
+.contant {
+    width: 90%;
     height: 100%;
+    padding: 5% 0;
+    margin: 0 auto;
+}   
+.turquoise {
+    height: 110px;
+    width: 100%;
+    background: #1a647d;
+}
+.square {
+    background-color: white;
+    opacity: .30;
+    height: 45px;
+    width: 45px;
+    margin: 0 auto;
+}
+.rectangle_five {
+    background-color: #473cc6;
+    opacity: .3;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.rectangle_six {
+    background-color: #534e92;
+    opacity: .3;
+    height: 65px;
+    width: 285px;
+    margin: 0 auto;
+}
+.block {
+    display: flex;
+    justify-self: flex-start;
+}
+.rectangle_seven {
+    background-color: #4941a5;
+    opacity: .3;
+    height: 120px;
+    width: 100px;
+    margin: -2.9em 23px;
+}
+.rectangle_eight {
+    background-color: #4941a5;
+    opacity: .3;
+    height: 120px;
+    width: 170px;
+    margin: -2.9em auto;
+}
+.blue {
+    height: 110px;
+    width: 100%;
+    background: #42a7ca;
+}
+.dark_blue {
+    height: 110px;
+    width: 100%;
+    background: #093342;
+}
+.red {
+    height: 220px;
+    width: 100%;
+    background: #792626;
+}
+.dark_violet {
+    height: 370px;
+    width: 100%;
+    background: #23143c;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    background: #2f2f2f;
 }
